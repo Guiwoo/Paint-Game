@@ -1,0 +1,34 @@
+{
+  "name": "paintgame",
+  "version": "1.0.0",
+  "description": "Realtime Game",
+  "main": "index.js",
+  "scripts": {
+    "dev:server": "nodemon --exec babel-node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guiwoo/Paint-game.git"
+  },
+  "author": "Guiwoo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Guiwoo/Paint-game/issues"
+  },
+  "homepage": "https://github.com/Guiwoo/Paint-game#readme",
+  "dependencies": {
+    "@babel/core": "^7.13.16",
+    "@babel/node": "^7.13.13",
+    "@babel/preset-env": "^7.13.15",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "pug": "^3.0.2",
+    "socket.io": "^4.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.24.0",
+    "eslint-config-prettier": "^8.2.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.2.1"
+  }
+}
