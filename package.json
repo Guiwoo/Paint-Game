@@ -4,7 +4,8 @@
   "description": "Realtime Game",
   "main": "index.js",
   "scripts": {
-    "dev:server": "nodemon --exec babel-node src/server.js"
+    "dev:server": "nodemon --exec babel-node src/server.js",
+    "dev:assets": "gulp"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,12 @@
     "@babel/node": "^7.13.13",
     "@babel/preset-env": "^7.13.15",
     "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-sass": "^4.1.0",
+    "morgan": "^1.10.0",
+    "node-sass": "^5.0.0",
     "nodemon": "^2.0.7",
     "pug": "^3.0.2",
     "socket.io": "^4.0.1"
