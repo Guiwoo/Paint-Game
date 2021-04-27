@@ -7,6 +7,15 @@ html(lang="en")
         link(rel='stylesheet',href='/styles/styles.css')
         title Paint Game
     body 
-        h1 Hello shit
+        .loginBox
+            form#jsLogin
+                input(placeholder="What is your nick name?",type='text')
+        .gameContainer#jsGame
+            .chat
+                ul.chat__messages#jsMessages
+                form.chat__form#jsSendMessage
+                    input(placeholder="Write a Message🧡") 
+        script.
+            window.events = !{(events)}
         script(src='/socket.io/socket.io.js')
-        script(src="/index.js")
+        script(src="/js/main.js")
