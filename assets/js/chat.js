@@ -28,3 +28,6 @@ export const handleNewMessage = ({ message, nickname }) =>
 if (sendMessage) {
   sendMessage.addEventListener("submit", handleSendMessage);
 }
+
+export const disalbeChat = () => (sendMessage.style.display = "none");
+export const enableChat = () => (sendMessage.style.display = "flex");

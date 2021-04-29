@@ -1,3 +1,4 @@
 import "./sockets.js";
 import "./login.js";
-import "./chat";
+import "./chat.js";
+import "./paint.js";
